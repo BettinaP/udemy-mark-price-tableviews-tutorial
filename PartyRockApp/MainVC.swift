@@ -22,11 +22,13 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         let urlTest = "<div style=\"position:relative;height:0;padding-bottom:56.25%\"><iframe src= \"https://www.youtube.com/embed/KQ6zr6kCPj8?ecver=2\" width=\"640\" height=\"360\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen></iframe></div>"
         
-        let p1 = PartyRock(imageURL: "http://www.wavefm.com.au/images/stories/2015/04/redfoo.jpg", videoURL: urlTest, videoTitle: "Party Rock Anthem")
-        let p2 = PartyRock(imageURL: "http://www.wavefm.com.au/images/stories/2015/04/redfoo.jpg", videoURL: urlTest, videoTitle: "Party Rock Anthem")
-        let p3 = PartyRock(imageURL: "http://www.wavefm.com.au/images/stories/2015/04/redfoo.jpg", videoURL: urlTest, videoTitle: "Party Rock Anthem")
-        let p4 = PartyRock(imageURL: "http://www.wavefm.com.au/images/stories/2015/04/redfoo.jpg", videoURL: urlTest, videoTitle: "Party Rock Anthem")
-        let p5 = PartyRock(imageURL: "http://www.wavefm.com.au/images/stories/2015/04/redfoo.jpg", videoURL: urlTest, videoTitle: "Party Rock Anthem")
+        let url2 = "<div style=\"position:relative;height:0;padding-bottom:56.25%\"><iframe src=\"https://www.youtube.com/embed/XNtTEibFvlQ?ecver=2\" width=\"640\" height=\"360\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen></iframe></div>"
+        
+        let p1 = PartyRock(imageURL: "https://i.ytimg.com/vi/2wUxw6GH3IM/hqdefault.jpg", videoURL: urlTest, videoTitle: "I'm in Miami")
+        let p2 = PartyRock(imageURL: "http://direct-ns.rhap.com/imageserver/v2/albums/Alb.219913217/images/600x600.jpg", videoURL: url2, videoTitle: "Lights Out")
+        let p3 = PartyRock(imageURL:"http://www.wavefm.com.au/images/stories/2015/04/redfoo.jpg", videoURL: urlTest, videoTitle: "Shots")
+        let p4 = PartyRock(imageURL: "http://www.croshalgroup.com/wp-content/uploads/2015/05/Redfoo-Website.jpg", videoURL: urlTest, videoTitle: "Let's Get Ridiculous")
+        let p5 = PartyRock(imageURL: "http://www.billboard.com/files/styles/article_main_image/public/media/lmfao-party-rock-anthem-2011-billboard-650.jpg", videoURL: urlTest, videoTitle: "Party Rock Anthem")
         partyRocks.append(p1)
         partyRocks.append(p2)
         partyRocks.append(p3)
